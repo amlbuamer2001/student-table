@@ -3,6 +3,7 @@ var ageErrorMsg = document.getElementsByClassName('ageErrorMsg')[0]
 var inputName = document.getElementById('name')
 var inputAge = document.getElementById('age')
 var tbody = document.getElementById('tbody')
+var thead=document.getElementsByTagName('thead')[0]
 // ()
 
 var std_id = 1
@@ -30,6 +31,7 @@ function addStudent() {
         return;
     }
 
+    document.querySelector('thead').style.display = 'table-header-group';
     td1.innerHTML = std_id++
     td2.innerHTML = inputName.value
     td3.innerHTML = inputAge.value
