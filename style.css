@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main-section {
+    font-family: Arial, sans-serif;
+    background-color: rgb(171, 126, 243);
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(76, 7, 141);
+    padding: 0 0 20px 0;
+}
+
+#main-section input {
+    padding: 15px;
+    width: 500px;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    background-color: blanchedalmond;
+    border-style: none;
+}
+
+
+#main-section input::placeholder {
+    text-align: center;
+    /* Centers horizontally */
+}
+
+input:focus-visible {
+    outline: 0;
+}
+
+span{
+    color: red;
+    display: inline-block;
+    margin: 10px 0 0 0;
+}
+
+.ageErrorMsg{
+    margin-bottom: 10px;
+}
+
+#main-section button {
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    background-color: blanchedalmond;
+    color: rgb(75, 75, 75);
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+table {
+    margin: auto;
+}
+
+table {
+    width: 50%;
+    border-radius: 20px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th {
+    background-color: blanchedalmond;
+    color: rgb(76, 7, 141);
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: blanchedalmond;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main-section">
+        <h1>
+            Student Table
+        </h1>
+        <input type="text" name="name" id="name" placeholder="Enter student Name">
+        <span class="nameErrorMsg"></span>
+        <br><br>
+        <input type="text" name="age" id="age" placeholder="Enter student Age">
+        <span class="ageErrorMsg"></span>
+        <br>
+        <button onclick="addStudent()">Add student</button>
+        <br>
+        <table>
+            <thead>
+                <th>
+                    id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    Actions
+                </th>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
